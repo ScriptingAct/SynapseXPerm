@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Synapse X Hub premium", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Synapse X Hub Version 3.6.6", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Main",
@@ -51,8 +51,8 @@ Tab:AddButton({
 })
 
 OrionLib:MakeNotification({
-	Name = "Synapse X",
-	Content = "Welcome",
+	Name = "Roblox",
+	Content = "Bypass Start",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
