@@ -1,0 +1,65 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Synapse X Hub premium", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "LastScript"
+})
+
+Tab:AddButton({
+	Name = "Hoho Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Synapse X Dex Explorer",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ScriptingAct/SynxExplorer/main/Synx%20Dex'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "inf Yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Setting",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script"
+})
+
+Tab:AddButton({
+	Name = "Rejoin + Hop Server",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/AE2Q5WCh"))()
+  	end    
+})
+
+OrionLib:MakeNotification({
+	Name = "Synapse X",
+	Content = "Welcome",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+Tab:AddButton({
+	Name = "Destory Gui",
+	Callback = function()
+      		OrionLib:Destroy()
+  	end    
+})
