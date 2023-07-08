@@ -52,7 +52,7 @@ Tab:AddButton({
 
 OrionLib:MakeNotification({
 	Name = "Roblox",
-	Content = "Bypass Start",
+	Content = "Bypass Loading",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
