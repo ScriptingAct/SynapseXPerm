@@ -44,7 +44,7 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Rejoin + Hop Server",
+	Name = "Rejoin",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/AE2Q5WCh"))()
   	end    
