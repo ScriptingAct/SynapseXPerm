@@ -1,5 +1,5 @@
-local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/6V4gnWzC')))()
-local Window = OrionLib:MakeWindow({Name = "Project Hub Version 1.4.4", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/6V4gnWzC')))()
+local Window = OrionLib:MakeWindow({Name = "Synapse X Hub (Roblox API)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Main",
